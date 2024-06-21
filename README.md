@@ -1,3 +1,0 @@
-- [GitHub Actions: Beherrsche die Welt der Piplines!](https://hellocoding.de/blog/tools/git/github-actions-verwenden)
-- [Zurück in die Zukunft: Native Verschachtelung in CSS](https://hellocoding.de/blog/coding-language/css/verschachtelung-in-css)
-- [Wie funktioniert Test Driven Development eigentlich?](https://hellocoding.de/blog/coding-language/allgemein/test-driven-development)

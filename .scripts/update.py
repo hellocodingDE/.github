@@ -16,7 +16,7 @@ def update():
   for entry in feed.entries:
     mdLink = f"- [{entry.title}]({entry.link})"
 
-    with open("README.md", "a") as file:
+    with open(path + "README.md", "a") as file:
       file.write(mdLink + "\n")
     
 if __name__ == "__main__":
