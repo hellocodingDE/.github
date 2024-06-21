@@ -17,8 +17,8 @@ jobs:
       - run: python .scripts/update.py
       - name: Commit changes (mit Abbruch bei "nothing to commit")
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "github-actions@github.com"
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
           git add ./profile/README.md
 
