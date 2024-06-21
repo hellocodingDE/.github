@@ -20,7 +20,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "github-actions@github.com"
 
-          git add README.md
+          git add ./profile/README.md
 
           if ! git commit -m "Update Article List on $(date +%Y-%m-%d)"; then
             echo "Keine Änderungen gefunden. Abbruch!"
