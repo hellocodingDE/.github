@@ -17,6 +17,9 @@ jobs:
       - run: python .scripts/update.py
       - name: Commit changes (mit Abbruch bei "nothing to commit")
         run: |
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions@github.com"
+
           git add README.md
 
           if ! git commit -m "Update Article List on $(date +%Y-%m-%d)"; then
