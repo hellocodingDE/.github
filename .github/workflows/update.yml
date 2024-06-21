@@ -1,0 +1,27 @@
+name: update-readme
+
+on:
+  schedule:
+    - cron: '0 0 */1 * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - run: python .scripts/update.py
+      - name: Commit changes (mit Abbruch bei "nothing to commit")
+        run: |
+          git add README.md
+
+          if ! git commit -m "Update Article List on $(date +%Y-%m-%d)"; then
+            echo "Keine Änderungen gefunden. Abbruch!"
+            exit 0
+          fi
+
+          git push
