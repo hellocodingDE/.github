@@ -11,6 +11,7 @@ In dieser GitHub Organisation findest du alle Projekte, die für [HelloCoding.de
 
 ## Letzte Artikel auf [HelloCoding.de](https://hellocoding.de/) 🧠
 
+- [Von Commits bis Push: Git Hooks für optimierte Workflows](https://hellocoding.de/blog/tools/git/git-hooks-workflow)
 - [Neovim als meine Entwicklungsumgebung](https://hellocoding.de/blog/tools/development/neovim-als-entwicklungsumgebung)
 - [GitHub Actions: Beherrsche die Welt der Piplines!](https://hellocoding.de/blog/tools/git/github-actions-verwenden)
 - [Zurück in die Zukunft: Native Verschachtelung in CSS](https://hellocoding.de/blog/coding-language/css/verschachtelung-in-css)
@@ -18,4 +19,3 @@ In dieser GitHub Organisation findest du alle Projekte, die für [HelloCoding.de
 - [Wie Unit-Testing in Python funktioniert?](https://hellocoding.de/blog/coding-language/python/unit-tests)
 - [ChatGPT, Gemini & Apple Intelligence von Webseiten aussperren!](https://hellocoding.de/blog/seo/ki-ausschliessen-von-webseite)
 - [Wie TypeGuards dein JavaScript & TypeScript Code verbessern können!](https://hellocoding.de/blog/coding-language/javascript/typeguards)
-- [GitHub CoPilot, ein Partner für alle Fälle? Mit KI Programmieren.](https://hellocoding.de/blog/coding-language/allgemein/github-copilot)
